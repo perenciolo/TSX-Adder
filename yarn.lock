@@ -6077,7 +6077,7 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serialize-javascript@^1.4.0:
+serialize-javascript@^1.4.0, serialize-javascript@^1.5.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.6.1.tgz#4d1f697ec49429a847ca6f442a2a755126c4d879"
   integrity sha512-A5MOagrPFga4YaKQSWHryl7AXvbQkEqpw4NNYMTNYUNV51bA8ABHgYFpqKx+YFFrw59xMV1qGH1R4AgoNIVgCw==
@@ -7015,10 +7015,24 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-cli-plugin-tsx-support@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tsx-support/-/vue-cli-plugin-tsx-support-0.3.0.tgz#11730bee5f1505e2a850903479b5a8865fee7fae"
+  integrity sha512-ZET7uYINKihF/tov6ekHThn4q1+EGke6d1N6Q46HwCsjMiyZWdPxZP1tm2OP6nfWr+eDGLvYciyVjw27uZytsg==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha512-KmvZVtmM26BQOMK1rwUZsrqxEGeKiYSZGA7SNWE6uExx8UX/cj9hq2MRV/wWC3Cq6AoeDGk57rL9YMFRel/q+g==
+
+vue-jsx-hot-loader@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/vue-jsx-hot-loader/-/vue-jsx-hot-loader-1.4.0.tgz#38014b6cac81bdc290f16ca1f4e0e68306542bd8"
+  integrity sha512-RaoRH3Et4DGhvO5hl+xHQY42PmUd4ECe+L0F/aB7uN4PZhq57LpjdxpWi/9eODZ+FhAA3hpH+oBwzy8zKJaYmg==
+  dependencies:
+    hash-sum "^1.0.2"
+    lodash "^4.17.10"
+    serialize-javascript "^1.5.0"
 
 vue-loader@^15.6.4:
   version "15.7.0"
@@ -7052,10 +7066,20 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue-tsx-support@^2.1.1:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/vue-tsx-support/-/vue-tsx-support-2.2.2.tgz#318f6dd25e5f1ee451a7bc5bcb4669eb7810460c"
+  integrity sha512-VykX5OnMYUCyJje7Ke2cVMk0c22eCzuyCQjchRsMpRg72SLZ0eDicT4oTZTJRGAHJ/7TDV+Pwtnpt+LHVr62jg==
+
 vue@^2.6.6:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
+
+vuex@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.0.tgz#634b81515cf0cfe976bd1ffe9601755e51f843b9"
+  integrity sha512-mdHeHT/7u4BncpUZMlxNaIdcN/HIt1GsGG5LKByArvYG/v6DvHcOxvDCts+7SRdCoIRGllK8IMZvQtQXLppDYg==
 
 watchpack@^1.5.0:
   version "1.6.0"
